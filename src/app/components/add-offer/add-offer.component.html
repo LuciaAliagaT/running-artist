@@ -1,0 +1,31 @@
+<div class="main-container">
+    
+    <h1 class="form-title">Agregar oferta</h1>
+        
+    <mat-card class="form-card">
+        <mat-card-content>
+            <form (submit)="onSubmit()" #offerForm="ngForm" class="form-container">
+                <mat-form-field>
+                  <mat-label>Título</mat-label>
+                  <input matInput placeholder="Título" #input maxlength="60" [formControl]="title" [(ngModel)]="offerData.title" required>
+                  <mat-hint align="end">{{ input.value.length }}/60</mat-hint>
+                  <mat-error *ngIf="title.invalid">{{ getErrorMessage() }}</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                  <mat-label>Descripción</mat-label>
+                  <input matInput placeholder="Descripción" [formControl]="description" [(ngModel)]="offerData.description">
+                </mat-form-field>
+                <mat-form-field>
+                  <mat-label>Puntos</mat-label>
+                  <input matInput placeholder="Puntos" [formControl]="points" [(ngModel)]="offerData.points" required>
+                  <mat-error *ngIf="points.invalid">{{ getErrorMessage() }}</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Business Id</mat-label>
+                    <input matInput placeholder="Business Id" [formControl]="businessId" [(ngModel)]="offerData.businessId">
+                </mat-form-field>
+                <button mat-raised-button color="primary" type="submit">Save</button>
+              </form>
+        </mat-card-content>
+    </mat-card>
+</div>
