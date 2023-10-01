@@ -36,14 +36,16 @@ export class ListOffersComponent {
   ngOnInit(){
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
-    this.getAllMovies();
+    this.getAllOffers();
     console.log("skdnfkldfn");
   } 
-  getAllMovies(){
+
+  getAllOffers(){
     this.offerService.getList().subscribe((response: any) => {
       this.dataSource.data = response;
     })
   }
+
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
@@ -54,8 +56,8 @@ export class ListOffersComponent {
   }
 
 
-  showCard(){
-
+  addOffer(){
+    this.router.navigateByUrl(`/offers/new`);
   }
 
   cancelEdit(): void {
@@ -75,9 +77,10 @@ export class ListOffersComponent {
   }
 
   deleteOffer(id:any): void{
-    this.offerService.getList().subscribe((response: any) => {
+    this.offerService.deleteOffer(id).subscribe((response: any) => {
       this.dataSource.data = response;
     })
+    this.getAllOffers();
   }
 
   getRow( row:any ){

@@ -29,7 +29,7 @@ export class HttpDataService {
 
   //Offer Crud
   getList(): Observable<Offers[]>{
-    return this.http.get<Offers[]>(`${this.baseUrl}/offers`)
+    return this.http.get<Offers[]>(`${this.baseUrl}`)
     .pipe(retry(2), catchError(this.handlerError))
   }
   //OFFER  -> GET
@@ -39,7 +39,7 @@ export class HttpDataService {
   }
   //CREATE → POST
   createOffer(item: any): Observable<Offers>{
-    return this.http.post<Offers>(this.baseUrl, JSON.stringify(item), this.httpOptions)
+    return this.http.post<Offers>(`${this.baseUrl}`, JSON.stringify(item), this.httpOptions)
     .pipe(retry(2), catchError(this.handlerError));
   }
   //DELETE → DELETE

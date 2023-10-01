@@ -20,6 +20,6 @@ export class ToolbarComponent {
   }
 
   offers(){
-    this.router.navigateByUrl(`/offers`);
+    this.router.navigateByUrl(`/business/offers`);
   }
 }

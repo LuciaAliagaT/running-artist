@@ -1,75 +1,81 @@
 {
-    "offers": [
-      {
-        "id": 1,
-        "title": "Entrenamiento Personalizado",
-        "description": "Mejora tu rendimiento con un entrenamiento personalizado. Gana 50 Kinetic Points con cada sesión.",
-        "points": 50,
-        "businessId": "running123"
-      },
-      {
-        "id": 2,
-        "title": "Nutrición Saludable",
-        "description": "Obtén un 20% de descuento en productos saludables y suplementos. Gana 10 Kinetic Points por compra.",
-        "points": 10,
-        "businessId": "nutrition456"
-      },
-      {
-        "id": 3,
-        "title": "Desafío de Carrera 5K",
-        "description": "Desafía a completar una carrera de 5K y gana 100 Kinetic Points al cruzar la meta.",
-        "points": 100,
-        "businessId": "challenge789"
-      },
-      {
-        "id": 4,
-        "title": "Yoga al Aire Libre",
-        "description": "Únete a nuestra clase de yoga al aire libre y gana 30 Kinetic Points por asistir.",
-        "points": 30,
-        "businessId": "yoga101"
-      },
-      {
-        "id": 5,
-        "title": "Equipamiento de Running",
-        "description": "Compra zapatillas y ropa de running con un 15% de descuento. Gana 5 Kinetic Points por compra.",
-        "points": 5,
-        "businessId": "runningstore202"
-      },
-      {
-        "id": 6,
-        "title": "Reto de Formación de Figuras en Grupo",
-        "description": "Únete a nuestro reto de formación de figuras en grupo y gana 200 Kinetic Points si logramos el objetivo juntos.",
-        "points": 200,
-        "businessId": "groupchallenge303"
-      },
-      {
-        "id": 7,
-        "title": "Batidos de Proteínas Post-Entrenamiento",
-        "description": "Disfruta de un batido de proteínas con un 10% de descuento. Gana 15 Kinetic Points con cada compra.",
-        "points": 15,
-        "businessId": "proteinshakes404"
-      },
-      {
-        "id": 8,
-        "title": "Carrera Nocturna",
-        "description": "Participa en nuestra carrera nocturna y gana 75 Kinetic Points al cruzar la línea de meta.",
-        "points": 75,
-        "businessId": "nightchallenge505"
-      },
-      {
-        "id": 9,
-        "title": "Acceso al Gimnasio",
-        "description": "Mantén tu rutina en nuestro gimnasio con un pase mensual con un 20% de descuento. Gana 10 Kinetic Points por visita.",
-        "points": 10,
-        "businessId": "gymmembership606"
-      },
-      {
-        "id": 10,
-        "title": "Maratón Virtual",
-        "description": "Únete a nuestro maratón virtual y corre desde cualquier lugar. Gana 300 Kinetic Points al completar la maratón.",
-        "points": 300,
-        "businessId": "virtualmarathon707"
-      }
-    ]
-  }
-  
+  "offers": [
+    {
+      "id": 1,
+      "title": "Entrenamiento Personalizado",
+      "description": "Mejora tu rendimiento con un entrenamiento personalizado. Gana 50 Kinetic Points con cada sesión.",
+      "points": 50,
+      "businessId": "running123"
+    },
+    {
+      "id": 2,
+      "title": "Nutrición Saludable",
+      "description": "Obtén un 20% de descuento en productos saludables y suplementos. Gana 10 Kinetic Points por compra.",
+      "points": 10,
+      "businessId": "nutrition456"
+    },
+    {
+      "id": 3,
+      "title": "Desafío de Carrera 5K",
+      "description": "Desafía a completar una carrera de 5K y gana 100 Kinetic Points al cruzar la meta.",
+      "points": 100,
+      "businessId": "challenge789"
+    },
+    {
+      "id": 4,
+      "title": "Yoga al Aire Libre",
+      "description": "Únete a nuestra clase de yoga al aire libre y gana 30 Kinetic Points por asistir.",
+      "points": 30,
+      "businessId": "yoga101"
+    },
+    {
+      "id": 5,
+      "title": "Equipamiento de Running",
+      "description": "Compra zapatillas y ropa de running con un 15% de descuento. Gana 5 Kinetic Points por compra.",
+      "points": 5,
+      "businessId": "runningstore202"
+    },
+    {
+      "id": 6,
+      "title": "Reto de Formación de Figuras en Grupo",
+      "description": "Únete a nuestro reto de formación de figuras en grupo y gana 200 Kinetic Points si logramos el objetivo juntos.",
+      "points": 200,
+      "businessId": "groupchallenge303"
+    },
+    {
+      "id": 7,
+      "title": "Batidos de Proteínas Post-Entrenamiento",
+      "description": "Disfruta de un batido de proteínas con un 10% de descuento. Gana 15 Kinetic Points con cada compra.",
+      "points": 15,
+      "businessId": "proteinshakes404"
+    },
+    {
+      "id": 8,
+      "title": "Carrera Nocturna",
+      "description": "Participa en nuestra carrera nocturna y gana 75 Kinetic Points al cruzar la línea de meta.",
+      "points": 75,
+      "businessId": "nightchallenge505"
+    },
+    {
+      "id": 9,
+      "title": "Acceso al Gimnasio",
+      "description": "Mantén tu rutina en nuestro gimnasio con un pase mensual con un 20% de descuento. Gana 10 Kinetic Points por visita.",
+      "points": 10,
+      "businessId": "gymmembership606"
+    },
+    {
+      "id": 10,
+      "title": "Maratón Virtual",
+      "description": "Únete a nuestro maratón virtual y corre desde cualquier lugar. Gana 300 Kinetic Points al completar la maratón.",
+      "points": 300,
+      "businessId": "virtualmarathon707"
+    },
+    {
+      "title": "Suscripción Mensual al Gimnasio",
+      "description": "Obtén una suscripción mensual al gimnasio con acceso ilimitado. Gana 50 Kinetic Points por mes.",
+      "points": "50",
+      "businessId": "gym123",
+      "id": 11
+    }
+  ]
+}

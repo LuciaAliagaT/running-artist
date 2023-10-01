@@ -1,12 +1,11 @@
 
-<h1>RSNDKFNDS</h1>
 <div class="container">
     <div class="head-container"> 
         <mat-form-field class="form-filter">
             <mat-label>Filter</mat-label>
             <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Avengers" #input>
         </mat-form-field>
-        <button mat-fab color="warn" (click)="showCard()">
+        <button mat-fab color="warn" (click)="addOffer()">
             <mat-icon>add</mat-icon>
         </button>
     </div>

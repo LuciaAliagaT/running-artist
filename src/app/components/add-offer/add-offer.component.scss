@@ -1,0 +1,24 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-title{
+    font-weight: bold;
+}
+
+.form-card{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
