@@ -1,0 +1,25 @@
+.home-container{
+    background: url("https://media.discordapp.net/attachments/1154210086512758835/1156037309905502238/fullbodyprofilecoupleyoungtwofriendsstrongsportysportswoman.png?ex=65138324&is=651231a4&hm=6f37e2c47131d90be7e9d81345787a90bcd0b6974d316207c5a21a5ff9a79013&=&width=1098&height=618");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-card{
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}

@@ -1,0 +1,17 @@
+mat-toolbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    margin: 10px;
+}
+
+.home-options{
+    display: flex;
+    flex-direction: row;
+}
+
+.button:hover{
+    cursor: pointer;
+}
