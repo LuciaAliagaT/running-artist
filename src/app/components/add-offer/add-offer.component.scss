@@ -4,6 +4,7 @@
     padding: 20px;
     align-items: center;
     justify-content: center;
+    height: 80vh;
 }
 
 .form-title{
@@ -21,4 +22,9 @@
 .form-container{
     display: flex;
     flex-direction: column;
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }

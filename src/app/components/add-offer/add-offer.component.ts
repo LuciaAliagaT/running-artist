@@ -52,5 +52,8 @@ export class AddOfferComponent {
     })
     this.router.navigateByUrl(`/business/offers`);
   }
+  cancelAdd(){
+    this.router.navigateByUrl(`/business/offers`);
+  }
   
 }
