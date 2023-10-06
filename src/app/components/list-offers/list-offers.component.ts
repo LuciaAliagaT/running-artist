@@ -73,7 +73,10 @@ export class ListOffersComponent {
 
   
   editOffer(element: any){
-
+    this.offerData = element;
+    this.isEditMode = true;
+    this.isShowCard = true; 
+    this.router.navigateByUrl(`offers/edit/${element.id}`);
   }
 
   deleteOffer(id:any): void{

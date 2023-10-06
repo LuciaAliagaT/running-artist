@@ -4,8 +4,8 @@
       "id": 1,
       "title": "Entrenamiento Personalizado",
       "description": "Mejora tu rendimiento con un entrenamiento personalizado. Gana 50 Kinetic Points con cada sesión.",
-      "points": 50,
-      "businessId": "running123"
+      "points": "30",
+      "businessId": "running124"
     },
     {
       "id": 2,
@@ -20,13 +20,6 @@
       "description": "Desafía a completar una carrera de 5K y gana 100 Kinetic Points al cruzar la meta.",
       "points": 100,
       "businessId": "challenge789"
-    },
-    {
-      "id": 4,
-      "title": "Yoga al Aire Libre",
-      "description": "Únete a nuestra clase de yoga al aire libre y gana 30 Kinetic Points por asistir.",
-      "points": 30,
-      "businessId": "yoga101"
     },
     {
       "id": 5,

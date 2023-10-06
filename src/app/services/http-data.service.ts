@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable, Output } from '@angular/core';
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { catchError, Observable, retry, throwError } from 'rxjs';
 import { Offers } from '../models/offers.model';
@@ -26,7 +26,10 @@ export class HttpDataService {
     return throwError('Something happened with request, please try again later');
 
   }
-
+  getOfferById(id: any): Observable<Offers>{
+    return this.http.get<Offers>(`${this.baseUrl}/${id}`)
+    .pipe(retry(2), catchError(this.handlerError))
+  }
   //Offer Crud
   getList(): Observable<Offers[]>{
     return this.http.get<Offers[]>(`${this.baseUrl}`)
@@ -49,10 +52,11 @@ export class HttpDataService {
   }
   //UPDATE → DELETE
 
-  updateMovie(id: string, item: any): Observable<Offers>{
+  updateOffer(id: any, item: any): Observable<Offers>{
     return this.http.put<Offers>(this.baseUrl + '/' + id, JSON.stringify(item), this.httpOptions)
     .pipe(retry(2), catchError(this.handlerError));
   }
 
-
+  @Output() editButton: EventEmitter<any> = new EventEmitter();
+  @Output() editMode: EventEmitter<any> = new EventEmitter();
 }

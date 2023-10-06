@@ -12,6 +12,7 @@ import { MaterialModule } from 'src/shared/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { AddOfferComponent } from './components/add-offer/add-offer.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { EditOfferComponent } from './components/edit-offer/edit-offer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     HomeComponent,
     ListOffersComponent,
-    AddOfferComponent
+    AddOfferComponent,
+    EditOfferComponent
   ],
   imports: [
     BrowserModule,
